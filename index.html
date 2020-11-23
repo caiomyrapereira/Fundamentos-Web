@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Caio Myra">
     <link rel="shortcut icon" type="image/png" href="assets/imgs/logo.png" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Dislexia</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
+            <ul type="none" id="menu">
                 <li>
                     <a href="#"> Home </a>
                 </li>
@@ -23,37 +24,53 @@
         </nav>
     </header>
 
-    <main>
-        <section>
-            <center>
-                <h1> Sobre a Dislexia</h1>
-                <p>
-                    A dislexia ocorre em crianças com visão e inteligência normais.<br />
-                    Os sintomas incluem fala tardia, aprendizagem lenta de novas palavras e atraso na aprendizagem da
-                    leitura.<br />
-                    A maioria das crianças com dislexia pode ter sucesso na escola com tutores e programas de educação
-                    especializados.<br />
+    <section class="banner">
+        <img src="assets/imgs/bannerdislexia.jpg">
+    </section>
 
-                </p>
-                <img src="assets/imgs/img_dislexia.jpeg" alt="desenho dislexia" />
-            </center>
+    <main>
+        <section class="descricao">
+            <h1 class="center margin-zero padding-30 white"> Sobre a Dislexia</h1>
+            <div class="flex-box-direction-row justify-content-center flex-wrap">
+                <div class="text">
+                    <p class="justify white">
+                        A dislexia ocorre em crianças com visão e inteligência normais. Os sintomas incluem fala tardia,
+                        aprendizagem lenta de novas palavras e atraso na aprendizagem
+                        da leitura. A maioria das crianças com dislexia pode ter sucesso na escola com tutores e
+                        programas de
+                        educação especializados.
+                    </p>
+                </div>
+                <img src="assets/imgs/DislexiaDesenho.png" src="img de dificuldade">
+            </div>
         </section>
 
-        <section>
-            <center>
-                <h1>Saiba mais<h1>
-                        <h3>Por meio de um Documentario</h3>
+        <section class="videos center">
+            <h1>Saiba mais<h1>
+                    <h3>Por meio de um Documentario</h3>
 
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/5AqLMJoOCzc" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen>
-                        </iframe>
-            </center>
+                    <iframe width="700" height="500" src="https://www.youtube.com/embed/5AqLMJoOCzc" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
         </section>
     </main>
 
     <footer>
-        Copyright© 2020 Caio Myra
+        <div class="flex-box-direction-row  justify-content-center foooter-contente">
+            <a href="https://www.instagram.com/caiomyra/" target="_brank">
+                <img class="icon-social padding-30" src="assets/imgs/instagram.png" alt="icon do instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/caio-myra-pereira-0625ba128/" target="_brank">
+                <img class="icon-social padding-30" src="assets/imgs/linkedin.png" alt="icon do linkedin">
+            </a>
+            <a href="https://github.com/caiomyrapereira" target="_brank">
+                <img class="icon-social padding-30" src="assets/imgs/github.png" alt="icon do github">
+            </a>
+        </div>
+        <p class="center footer-end">
+            Copyright© 2020 Caio Myra
+        </p>
     </footer>
 </body>
 
