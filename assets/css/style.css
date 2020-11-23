@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+}
+
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.white{
+    color: white;
+}
+
+.padding-30{
+    padding: 30px;
+}
+
+.margin-zero{
+    margin: 0;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-box-direction-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-box-direction-columns{
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-end{
+    justify-content:end;
+}
+
+.justify-content-start{
+    justify-content: start;
+}
+
+.justify-content-space-around{
+    justify-content: space-around;
+}
+
+.justify-items-center{
+    justify-items: center;
+}
+
+
+/*
+ menu
+*/
+
+#menu{
+    display: flex;
+}
+
+#menu li{
+    padding: 15px;
+}
+
+#menu li a{
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+#menu li a:hover{
+    color: gray;
+}
+
+
+/*
+ banner
+*/
+
+.banner{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(#ffd7d5, #ffb9c1);
+}
+
+.banner img{
+    width: 521px;
+    max-width: 100%;
+    height: 332px;
+}
+/*
+conteúdo 
+*/
+
+.descricao{
+    width: 100%;
+    background-color: #1e1240;
+}
+
+.descricao h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.descricao img{
+    width: 400px;
+    max-width: 100%;
+    height: 400px;
+}
+
+.descricao .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    max-width: 100%;
+}
+
+.descricao .text p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.videos{
+    padding: 50px 0px;
+}
+
+.videos iframe{
+    width:"700";
+    max-width: 100%;
+    height:"500"; 
+}
+
+/*
+
+ footer
+
+*/
+
+.icon-social{
+    width: 50px;
+    height: 50px;
+    max-width: 100%;
+}
+
+.icon-social:hover{
+    width: 75px;
+    height: 75px;
+}
+
+.foooter-contente{
+    background-color: #ffb9c1;
+}
+
+.footer-end{
+    margin: 0;
+    background-color:#fbaab8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+
+/*
+  style do contato
+*/
+
+
+.contato div{
+    margin: 0 20px;
+}
