@@ -35,19 +35,24 @@
             <div>
                 <form>
                     <label for="nome"> Nome: </label>
-                    <input type="text" id="nome" /><br><br>
+                    <input data-js="inputFullName" type="text" id="nome" /><br><br>
+                    <div data-js="textFullName" ></div>
 
                     <label for="email"> Email: </label>
-                    <input type="email" id="email" /><br><br>
+                    <input data-js="inputEmail" type="email" id="email" /><br><br>
+                    <div data-js="textEmail" ></div>
+
 
                     <label for="assunto"> Assunto: </label>
-                    <input type="text" id="assunto" /><br><br>
+                    <input  data-js="inputAssunto" type="text" id="assunto" /><br><br>
+                    <div data-js="textAssunto" ></div>
 
                     <label for="mensagem">Mensagem:</label><br>
-                    <textarea name="mensagem" id="mensagem" cols="60" rows="5">
+                    <textarea  data-js="inputMensagem" name="mensagem" id="mensagem" cols="60" rows="5">
                     </textarea>
+                    <div data-js="textMessage" ></div>
                     <br><br>
-                    <button> Enviar </button>
+                    <button data-js="send" > Enviar </button>
                 </form>
             </div>
 
@@ -84,6 +89,7 @@
             Copyright© 2020 Caio Myra
         </p>
     </footer>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>
